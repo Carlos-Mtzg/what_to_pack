@@ -1,0 +1,81 @@
+# === FRONTEND ===
+
+# Node modules y build outputs
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.local
+
+# Logs
+Frontend/logs/
+Frontend/*.log
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+Frontend/lerna-debug.log*
+
+# Editor y sistema
+Frontend/.vscode/
+Frontend/.idea/
+Frontend/.DS_Store
+
+# Otros archivos de editor
+Frontend/*.suo
+Frontend/*.ntvs*
+Frontend/*.njsproj
+Frontend/*.sln
+Frontend/*.sw?
+
+# === BACKEND ===
+
+# Maven/Java outputs
+Backend/HELP.md
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+!Backend/**/src/main/**/target/
+!Backend/**/src/test/**/target/
+
+# IDEs
+Backend/.apt_generated
+Backend/.classpath
+Backend/.factorypath
+Backend/.project
+Backend/.settings
+Backend/.springBeans
+Backend/.sts4-cache
+
+Backend/.idea/
+Backend/*.iws
+Backend/*.iml
+Backend/*.ipr
+
+Backend/nbproject/private/
+Backend/nbbuild/
+Backend/dist/
+Backend/nbdist/
+Backend/.nb-gradle/
+Backend/build/
+!Backend/**/src/main/**/build/
+!Backend/**/src/test/**/build/
+
+# Editor y sistema
+Backend/.vscode/
+Backend/.idea/
+Backend/.DS_Store
+
+# Otros archivos de editor
+Backend/*.suo
+Backend/*.ntvs*
+Backend/*.njsproj
+Backend/*.sln
+Backend/*.sw?
+
+# === GLOBAL ===
+
+# VS Code global settings
+.vscode/
+!.vscode/extensions.json
+
+# Mac
+.DS_Store
