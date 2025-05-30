@@ -30,7 +30,7 @@ public class RecomendationItemModel {
     private Boolean isCustom;
 
     @ManyToOne
-    @JoinColumn(name = "trip_id")
+    @JoinColumn(name = "trip_id", nullable = true)
     private TripModel trip;
 
     @ManyToOne
